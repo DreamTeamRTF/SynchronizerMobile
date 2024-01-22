@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SyncronizerMobile.MainPage"
+             Title="Syncronizer">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Введите имя пользователя"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="20"
+                HorizontalOptions="Center" />
+
+            <Entry
+                x:Name="UsernameEntry" />
+
+            <Button
+                x:Name="GetSyncPlaylistBtn"
+                Text="Получить плейлисты"
+                Clicked="OnGetSyncBtnClicked"
+                HorizontalOptions="Center"
+                BackgroundColor="#00D8F5"
+                TextColor="#F4F6FB"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
