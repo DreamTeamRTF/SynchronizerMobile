@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SyncronizerMobile.Resources.Models
+namespace SynchronizerMobile.Resources.Models
 {
     public class Track
     {

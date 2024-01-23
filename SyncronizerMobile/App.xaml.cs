@@ -1,4 +1,4 @@
-﻿namespace SyncronizerMobile
+﻿namespace SynchronizerMobile
 {
     public partial class App : Application
     {

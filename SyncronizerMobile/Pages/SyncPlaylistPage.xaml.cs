@@ -1,7 +1,7 @@
-using SyncronizerMobile.Resources.Models;
-using SyncronizerMobile.Resources.Styles;
+using SynchronizerMobile.Resources.Models;
+using SynchronizerMobile.Resources.Styles;
 
-namespace SyncronizerMobile;
+namespace SynchronizerMobile;
 
 public partial class SyncPlaylistPage : ContentPage
 {

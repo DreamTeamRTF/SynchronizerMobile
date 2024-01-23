@@ -6,11 +6,11 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using SyncronizerMobile.Resources.Models;
+using SynchronizerMobile.Resources.Models;
 
-namespace SyncronizerMobile
+namespace SynchronizerMobile
 {
-    public class WebSyncronizerService
+    public class WebSynchronizerService
     {
         HttpClient _client;
         JsonSerializerOptions _serializerOptions;
@@ -18,7 +18,7 @@ namespace SyncronizerMobile
 
         public List<PlaylistWithServiceType> Playlists { get; private set; }
 
-        public WebSyncronizerService()
+        public WebSynchronizerService()
         {
             _client = new HttpClient();
             _serializerOptions = new JsonSerializerOptions

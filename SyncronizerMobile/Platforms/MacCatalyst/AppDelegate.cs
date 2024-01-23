@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace SyncronizerMobile
+namespace SynchronizerMobile
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

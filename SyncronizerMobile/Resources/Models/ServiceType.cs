@@ -1,4 +1,4 @@
-﻿namespace SyncronizerMobile.Resources.Models
+﻿namespace SynchronizerMobile.Resources.Models
 {
     public enum ServiceType
     {

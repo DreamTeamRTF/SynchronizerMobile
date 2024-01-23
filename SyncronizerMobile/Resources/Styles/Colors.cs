@@ -1,4 +1,4 @@
-﻿namespace SyncronizerMobile.Resources.Styles
+﻿namespace SynchronizerMobile.Resources.Styles
 {
     internal static class Colors
     {

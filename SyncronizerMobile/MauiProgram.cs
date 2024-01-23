@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace SyncronizerMobile
+namespace SynchronizerMobile
 {
     public static class MauiProgram
     {

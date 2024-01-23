@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace SyncronizerMobile
+namespace SynchronizerMobile
 {
     public class Program
     {

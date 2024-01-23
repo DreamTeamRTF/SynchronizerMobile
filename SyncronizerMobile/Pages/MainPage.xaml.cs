@@ -1,15 +1,15 @@
-﻿using SyncronizerMobile.Resources.Models;
+﻿using SynchronizerMobile.Resources.Models;
 
-namespace SyncronizerMobile
+namespace SynchronizerMobile
 {
     public partial class MainPage : ContentPage
     {
-        private readonly WebSyncronizerService _service;
+        private readonly WebSynchronizerService _service;
 
         public MainPage()
         {
             InitializeComponent();
-            _service = new WebSyncronizerService();
+            _service = new WebSynchronizerService();
         }
 
         private async void OnGetSyncBtnClicked(object sender, EventArgs e)

@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace SyncronizerMobile
+namespace SynchronizerMobile
 {
 #if DEBUG                                   // connect to local service on the
     [Application(UsesCleartextTraffic = true)]  // emulator's host for debugging,
